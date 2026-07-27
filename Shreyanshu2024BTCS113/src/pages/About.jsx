@@ -1,8 +1,14 @@
+import Navbar from "../components/Navbar";
+
 function About() {
   return (
-    <h1 className="text-5xl text-center mt-20">
-      About Page
-    </h1>
+    <>
+      <Navbar />
+
+      <h1 className="text-5xl text-center mt-20">
+        About Page
+      </h1>
+    </>
   );
 }
 

@@ -3,7 +3,8 @@ import portfolioData from "../data/portfolioData";
 
 function Home() {
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-slate-100 p-6">
+    <div className="min-h-screen flex justify-center items-center bg-gray-100 px-5">
+    <div className="bg-white shadow-lg rounded-xl p-8 max-w-md text-center align-center">
 
 
       <h1 className="text-5xl font-bold mb-4">
@@ -16,9 +17,9 @@ function Home() {
       </h2>
 
       <img
+        className="align-center w-52 h-52 rounded-full object-cover border-2 border-black-500 mb-6 "
         src={portfolioData.image}
-        alt={portfolioData.name}
-        className="w-52 h-52 rounded-full object-cover border-2 border-black-500 mb-6"
+      
       />
 
 
@@ -33,6 +34,7 @@ function Home() {
         Know More
       </Link>
 
+    </div>
     </div>
   );
 }

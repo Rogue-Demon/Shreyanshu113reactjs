@@ -5,12 +5,10 @@ function Navbar() {
   return (
     <nav className="flex justify-between items-center p-5 bg-slate-800 text-white">
 
-      {/* Left */}
       <h2 className="text-2xl font-bold">
         {portfolioData.name}
       </h2>
 
-      {/* Center */}
       <div className="flex gap-6">
 
         <NavLink to="/about">
@@ -23,7 +21,6 @@ function Navbar() {
 
       </div>
 
-      {/* Right */}
       <p>
         {portfolioData.tag}
       </p>
