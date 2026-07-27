@@ -13,7 +13,7 @@ const portfolioData = {
   skills: [
     {
       title: "Technical Skills",
-      items: ["HTML", "CSS", "JavaScript", "React", "Tailwind CSS"],
+      items: ["HTML", "CSS", "JavaScript", "React", "Tailwind CSS", "Motion Graphics", "Adobe Illustrator"],
     },
     {
       title: "Soft Skills",

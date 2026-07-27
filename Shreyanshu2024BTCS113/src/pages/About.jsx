@@ -1,6 +1,7 @@
 import Navbar from "../components/Navbar";
 import AbtHero from "../components/AbtHero";
 import portfolioData from "../data/portfolioData";
+import SkillSection from "../components/SkillSection";
 
 function About() {
   return (
@@ -16,6 +17,9 @@ function About() {
       <AbtHero bio={portfolioData.fullBio} />
       </div>
       </div>
+      <SkillSection
+        skills={portfolioData.skills}
+      />
     </>
   );
 }
