@@ -8,8 +8,7 @@ const portfolioData = {
   fullBio:
     "I am a Computer Science student with a strong interest in React, JavaScript, and modern web technologies. I enjoy solving problems, building responsive web applications, and continuously improving my development skills. My goal is to become a skilled Full Stack Developer.",
 
-  image:
-    "https://via.placeholder.com/250",
+  image:"Shreyanshu2024BTCS113/src/assets/Profile.jpg",
 
   skills: [
     {

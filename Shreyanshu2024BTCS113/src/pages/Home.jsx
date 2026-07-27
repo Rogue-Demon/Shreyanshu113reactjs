@@ -18,7 +18,7 @@ function Home() {
       <img
         src={portfolioData.image}
         alt={portfolioData.name}
-        className="w-52 h-52 rounded-full object-cover border-4 border-blue-500 mb-6"
+        className="w-52 h-52 rounded-full object-cover border-2 border-black-500 mb-6"
       />
 
 
@@ -28,7 +28,7 @@ function Home() {
 
       <Link
         to="/about"
-        className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition"
+        className="bg-black-600 text-white px-6 py-3 rounded-lg hover:bg-gray-700 transition"
       >
         Know More
       </Link>
